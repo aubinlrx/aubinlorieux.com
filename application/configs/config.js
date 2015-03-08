@@ -11,7 +11,7 @@ var base = {
     VIEWS_PATH: 'application/views',
     BASE_URL: '',
     USE_DATABASE: false,
-    SSL: true
+    HEROKU: true
 };
 
 var dev = {
