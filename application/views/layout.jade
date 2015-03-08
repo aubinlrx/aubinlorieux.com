@@ -1,0 +1,15 @@
+doctype html
+html
+    head
+        title Aubin LORIEUX 
+        link(type='text/css' rel='stylesheet' media='screen' href=base_url("/assets/css/reset.css"))
+        link(type='text/css' rel='stylesheet' media='screen' href=base_url("/assets/css/text.css"))
+        link(type='text/css' rel='stylesheet' media='screen' href=base_url("/assets/css/styles.css"))
+        block stylesheet
+    body
+        include template/header
+        //include template/sidebar
+        div(class="container")
+            block content
+        //include template/footer
+        block javascript

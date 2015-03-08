@@ -1,0 +1,31 @@
+extends ../layout
+
+block content 
+
+  //Content 
+  div.main
+    
+    article.article
+      div.article-content
+
+        h1.article-title HI, I'M AUBIN
+        
+        h2.article-subtitle Hello
+
+        p I'm a software engineer living in Tours, France. I work at JHD Groupe Kardol. I spend most of my working day writing web application. I mostly play with Node.JS, Backbone, React, Ruby and PHP. You can contact me by Mail or via Twitter
+        
+    article.article 
+      div.article-content
+
+        h2.article-subtitle Instragram
+          
+        ul.instagram
+          each image in images
+            li.instagram-list
+              img(src=image class='instagram-img')
+
+
+    article.article
+      div.article-content
+
+        h2.article-subtitle Music

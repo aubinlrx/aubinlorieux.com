@@ -8,18 +8,6 @@
 *.swp
 *.swo
 node_modules/
-application/controllers/*
-!application/controllers/readme.md
-application/models/*
-!application/models/readme.md
-application/routes/*
-!application/routes/readme.md
-application/views/*
-!application/views/readme.md
-!application/views/500.jade
-!application/views/404.jade
-application/schemas/*
-!application/schemas/readme.md
 .idea
 
 
