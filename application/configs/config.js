@@ -10,7 +10,8 @@ var base = {
     MODELS_PATH: 'application/models',
     VIEWS_PATH: 'application/views',
     BASE_URL: '',
-    USE_DATABASE: false
+    USE_DATABASE: false,
+    SSL: true
 };
 
 var dev = {

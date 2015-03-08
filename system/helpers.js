@@ -15,7 +15,7 @@ var Helpers = function( app ) {
             var base_url = req.baseUrl,
                 port     = config.PORT,
                 host     = req.host,
-                protocol = req.protocol;
+                protocol = if(config.SSL) ? 'https' : req.protocol;
 
             var suffix = protocol + "://" + host + ":" + port;
             
