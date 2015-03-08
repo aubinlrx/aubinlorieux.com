@@ -10,7 +10,7 @@ var Helpers = function( app ) {
 
     //Base url implementation
     app.use(function(req, res, next) {
-
+        console.log(req.protocol);
         res.locals.base_url = function(url) {
             var base_url = req.baseUrl,
                 port     = config.PORT,
