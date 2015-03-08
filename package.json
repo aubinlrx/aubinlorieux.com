@@ -1,0 +1,40 @@
+{
+    "name": "aubinlorieux-com",
+    "version": "0.1.0",
+    "private": true,
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./system/boot.js"
+    },
+    "licenses" : [
+        {
+            "type" : "MIT",
+            "url" : "https://github.com/aubinlorieux/darjeeling/raw/master/LICENSE"
+        }
+    ],
+    "keywords": [
+        "node",
+        "darjeeling",
+        "personnal"
+    ],
+    "dependencies": {
+        "express": "4.4.x",
+        "winston": "0.7.x",
+        "body-parser": "1.4.x",
+        "serve-favicon": "2.0.x",
+        "serve-static": "1.3.x",
+        "mongoose": "3.8.x",
+        "jade": "*",
+        "nodetime": "0.8.x",
+        "lodash": "2.4.x",
+        "moment": "2.8.x",
+        "async": "0.9.x",
+        "q": "1.0.x",
+        "mongoose-q": "0.0.x",
+        "request": "2.53.x",
+        "crypto": "0.0.x"
+    },
+    "engines": {
+        "node": "0.10.x"
+    }
+}
