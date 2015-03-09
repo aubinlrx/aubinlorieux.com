@@ -33,16 +33,11 @@ var instagram = function(path, options, callback) {
       delete options[key];
   });
 
-  console.log(options);
-
   if( Object.keys(options).length ) {
     path += '/?' + querystring.stringify(options);
   }
 
   var header_value = '127.0.0.1|' + hash;
-
-  console.log(api_url + path);
-  console.log(header_value);
 
   request({
     url: api_url + path,

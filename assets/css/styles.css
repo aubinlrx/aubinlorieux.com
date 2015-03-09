@@ -191,6 +191,7 @@ article div.img {
 .instagram {
   list-style-type: none;
   overflow: auto;
+  margin: 0;
 }
 
 .instagram-list {
