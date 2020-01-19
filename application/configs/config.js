@@ -3,7 +3,7 @@
 var base = {
     ENV: process.env.NODE_ENV || 'developpment',
     PORT: process.env.PORT || 3000,
-    VIEW_ENGINE: 'jade',
+    VIEW_ENGINE: 'pug',
     DB_URL: "mongodb://localhost/dev",
     ROUTES_PATH: 'application/routes',
     CONTROLLERS_PATH: 'application/controllers',
@@ -11,15 +11,16 @@ var base = {
     VIEWS_PATH: 'application/views',
     BASE_URL: '',
     USE_DATABASE: false,
-    HEROKU: true
+    HEROKU: false,
 };
 
 var dev = {
-    DB_URL: "mongodb://localhost/dev"
+    DB_URL: "mongodb://localhost/dev",
 };
 
 var prod = {
-    DB_URL: "mongodb://localhost/prod"
+    DB_URL: "mongodb://localhost/prod",
+    HEROKU: true,
 };
 
 var mergeConfig = function( config ) {
